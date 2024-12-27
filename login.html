@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label for="loginName">Nome de Usuário:</label>
+      <input type="text" id="loginName" name="loginName" required>
+
+      <label for="loginPassword">Senha:</label>
+      <input type="password" id="loginPassword" name="loginPassword" required>
+
+      <button type="submit">Entrar</button>
+      
+    </form>
+
+    <p id="loginMessage" style="color: red;"></p>
+    <p>Ainda não tem uma conta? <a href="register.html">Cadastre-se aqui</a></p>
+  </div>
+
+  <script src="user.js"></script>
+</body>
+</html>
+
+
